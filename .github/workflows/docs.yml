@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v7
       - run: pip install .[docs]
       - run: make -C docs html
-      - uses: actions/upload-pages-artifact@v5
+      - uses: actions/upload-pages-artifact@98ef48e41587a300b82de4cf298aa98b57b2faae
         with:
           path: docs/_build/html
-      - uses: actions/deploy-pages@98ef48e41587a300b82de4cf298aa98b57b2faae
+      - uses: actions/deploy-pages@v5
