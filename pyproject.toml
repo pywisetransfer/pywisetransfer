@@ -12,7 +12,7 @@ requires-python = ">=3.10"
 dependencies = [
   "apiron (>=9.0.0,<10)",
   "munch (>=4.0.0,<5)",
-  "cryptography (>=48.0.0,<49)"
+  "cryptography (>=50.0.0,<51)"
 ]
 
 [project.optional-dependencies]
